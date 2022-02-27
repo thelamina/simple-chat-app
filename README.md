@@ -4,7 +4,7 @@ This is a real-time chat application built using React and NodeJS.
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-## 📹 [Demo](https://react-chatapp-frontend.herokuapp.com)
+## 📹 [Demo](https://chatlin.netlify.app)
 
 As the Demo is hosted on a free Heroku account, the servers its hosted on enter ‘sleep mode’ when not in use. If you notice a delay, please allow a few seconds for the servers to wake up.
 
