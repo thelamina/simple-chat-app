@@ -1,83 +1,62 @@
-# React Real-Time Chat App
+# Simple Chat App
 
-<p align="center">
-    <img src="http://git-assets.react-starter-kit.com/logo.png">  
-</p>
+This is a real-time chat application built using React and NodeJS.
 
-### [Online Demo](https://react-chatapp-frontend.herokuapp.com)
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+## 📹 [Demo](https://react-chatapp-frontend.herokuapp.com)
 
 As the Demo is hosted on a free Heroku account, the servers its hosted on enter ‘sleep mode’ when not in use. If you notice a delay, please allow a few seconds for the servers to wake up.
 
+## 🛠 Tech Stack
 
-### About:
+**Client:** React, Framer-motion, SCSS
 
-This is a real-time chat application built using React (Create React App on the frontend) and NodeJS/Express/Socket.io Backend.
+**Server:** Node, Express, TypeScript
 
-Users are able to join groups and message other users in real-time.
-
-### Tech Stack:
-
-* NodeJS/Express
-* SOCKET.IO
-* React (Create React App)
-* React Router 6
-* Moment JS
-* SASS
-
-### Screenshot
-
-<p align="center">
-    <img src="http://git-assets.react-starter-kit.com/react_chat_app.png">  
-</p>
-
-## Software 
+## Software
 
 Before proceeding, please ensure you have the following software installed on your computer.
 
-* Node
-* Yarn (optional but recommended)
-* Git command line tools
+-   Node
+-   Yarn (optional but recommended)
+-   Git command line tools
 
-## Getting started
+## 🚀 Run Locally
 
-Please fork a copy of this repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Alternatively download or clone the master branch.
+Clone the project
 
-### Download & Install Dependencies on your machine 
-
-Clone the repo to your machine 
-
-```
-git clone <CloneURL>
+```bash copy
+  git clone
 ```
 
-### Lunch the backend
+Go to the project directory
 
-1)	Within terminal or cmd ensure you have navigated inside the 'Backend' directory and installed the dependencies
-
-```
-cd <../path/to/Backend> 
-yarn install OR npm install
+```bash
+  cd my-project
 ```
 
-2) Run the start script
+Install dependencies
 
-``` 
-yarn run start OR npm run start
+```bash
+  yarn install
 ```
 
-### Launch the frontend
+Start the server
 
-1) Open a new terminal window and navigate inside the 'Frontend' folder as you will need to keep the backend running in the background
-
-```
-cd <../path/to/Frontend> 
-yarn install OR npm install
+```bash
+  yarn start
 ```
 
-2) Run the start script
+## 🧪 Running Tests
 
-``` 
-yarn run start OR npm run start
+To run tests, run the following command
+
+```bash
+  yarn test
 ```
 
-Your app should be running on: http://localhost:3000
+## References
+
+-   [Socket IO](https://socket.io/docs/v4/)
+-   [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
